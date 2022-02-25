@@ -1,3 +1,41 @@
 .container{
-    width: 60%;
+    width: 65%;
+}
+
+body{
+    background-color: #282424;
+    color: white;
+}
+
+a{
+    color: #0c6cfc;
+}
+
+h1, h2{
+    font-weight: bold;
+}
+
+:root{
+    --bs-primary-rgb: 52,92,124;
+    --bs-secondary-rgb: 140,148,148;
+    --bs-success-rgb: 23,174,172;
+    --bs-info-rgb: 44,124,172;
+    --bs-warning-rgb: 243,155,20;
+    --bs-danger-rgb: 220, 53, 69;
+    --bs-light-rgb: 172,180,188;
+    --bs-dark-rgb: 67,67,68;
+    --bs-white-rgb: 255, 255, 255;
+    --bs-black-rgb: 0, 0, 0;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.carusel-slide-text{
+    font-size: 14pt;
+}
+
+.carusel-slide-header{
+    font-size: 20pt;
 }
