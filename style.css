@@ -1,6 +1,6 @@
 body{
-    background-color: #282424;
     color: white;
+    background-image: url(háttér.png);
 }
 a{
     color: #0c6cfc;
@@ -38,6 +38,9 @@ img{
 }
 .container{
     width: 65%;
+    background-color: #282424;
+    padding: 12px;
+    border-radius: 10px;
 }
 .text-justify{
     text-align: justify;
@@ -54,6 +57,12 @@ img{
 .card-wide{
     width: 45rem;
     color: #000;
+}
+.card-little{
+    margin-right: 2px !important;
+}
+#minus-margin{
+    margin-right: -8px !important;
 }
 .clear-both{
     clear: both;
